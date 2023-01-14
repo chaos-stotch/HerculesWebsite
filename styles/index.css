@@ -3,13 +3,18 @@
     padding: 0;
     border: 0;
     outline: 0;
-    background: var(--color-bg);
     color: var(--color-white);
+}
+
+body {
+    background-color: var(--color-bg);
 }
 
 :root {
     --color-primary: #0c6b92;
+    --color-primary-variant: #012330;
     --color-secondary: #ce4265;
+    --color-secondary-variant: #641025;
     --color-bg: #000;
     --color-white: #F6F7F8;
 }

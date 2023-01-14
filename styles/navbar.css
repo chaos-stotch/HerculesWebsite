@@ -1,19 +1,23 @@
-.Navbar > * {
+.logo {
     display: block;
     width: 3rem;
     margin: 5px;
-}
 
-.logo {
     border-radius: 50%;
     top: 0;
     cursor: pointer;
 }
 
 .addButton {
+    display: block;
+    width: 3rem;
+    margin: 5px;
+    
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50%;
     cursor: pointer;
+    position: relative;
+    top: 1.5rem;
 }
 
 .addButton:hover {
@@ -28,4 +32,3 @@
     width: auto;
     height: 100%;
 }
-
