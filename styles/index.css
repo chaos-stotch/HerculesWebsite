@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+:root {
+    --color-primary: #0c6b92;
+    --color-secondary: #ce4265;
+    --color-bg: #000;
+    --color-white: #F6F7F8;
+}
