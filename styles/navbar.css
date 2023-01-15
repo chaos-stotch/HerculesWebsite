@@ -32,3 +32,10 @@
     width: auto;
     height: 100%;
 }
+
+@media screen and (max-width: 900px) {
+    .logo, .addButton {
+        width: 2rem;
+        margin: .5rem;
+    }
+}

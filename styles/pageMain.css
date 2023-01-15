@@ -2,9 +2,7 @@
     margin: 4rem 0 0 2rem;
     float: left;
     display: flex;
-    height: 50rem;
     width: 80rem;
-
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -61,7 +59,45 @@
     width: 60px;
 }
 
+.lateral__container p {
+    font-weight: bold;
+}
+
 .lateral__container a {
     color: rgb(116, 116, 248);
     text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1500px) {
+    .container {
+        width: 50rem;       
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        display:contents;
+    }
+    .content {
+        left: 3rem;
+        width: 78%;
+        border-radius: 0;
+    }
+    .lateral__container {
+        left: 3rem;
+        position:relative;
+        width: 78%;
+        border-radius: 0;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .botImg {
+        width: 100%;
+    }
 }
