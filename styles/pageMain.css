@@ -69,6 +69,16 @@
     font-weight: bold;
 }
 
+.siteDev {
+    text-align: center;
+    width: 100%;
+}
+
+.siteDev a {
+    color: white;
+    text-decoration:underline;
+}
+
 @media screen and (max-width: 1500px) {
     .container {
         width: 50rem;       
